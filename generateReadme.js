@@ -16,6 +16,14 @@ return `
 ## Description
 ${description}
 
+## Table of Contents 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributions](#contributions)
+* [Tests](#tests)
+* [About](#about)
+* [License](#license)
+
 ## Installation
 ${installation}
 
