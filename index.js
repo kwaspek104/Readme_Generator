@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const path = require('path');
 const generateMarkdown = require('./generateReadme');
 const questions = [
     {
@@ -24,12 +25,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'license',
-        message: 'Please describe the licensing of your project.'
-    },
-    {
-        type: 'input',
-        name: 'contributing',
+        name: 'contributions',
         message: 'Who else contributed to your project? Who did what?'
     },
     {
@@ -47,6 +43,11 @@ const questions = [
         name: 'email',
         message: 'What is your e-mail address?'
     },
+    {
+        type: 'input',
+        name: 'license',
+        message: 'Please describe the licensing of your project.'
+    }
 ]
 
 function writeFile (fileName, data) {

@@ -1,23 +1,25 @@
-# ${title}
+
+# Readme Generator
 
 ## Description
-${description}
-
-## License
-${license}
+Hello there and welcome to my humble but effective Readme Generator! Need a quick readme but tired of constantly copying and pasting? Look no further than here! Simply clone the repo and type in "node index.js" and  answer all the questions to the best of your abilities. You'll have a repo in no time!
 
 ## Installation
-${installation}
+Simply clone this repo to your local machine.
 
 ## Usage
-${usage}
+This is used to generate a readme whenever you want.
 
 ## Contributions
-${contributing}
+My wonderful tutor helped me with this application. :)
 
 ## Tests
-${tests}
+N/A
 
 ## About
-${name}
-${email} 
+Kasper Kuzmicki 
+
+kasper.kuzmicki@yahoo.com
+
+## License
+© 2020 Kasper Kuzmicki. All Rights Reserved.

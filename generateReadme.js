@@ -2,22 +2,19 @@ function generateMarkdown (userAnswers) {
 const {
     title, 
     description, 
-    license,
     installation, 
     usage,
-    contributing,
+    contributions,
     tests,
     name,
-    email
+    email,
+    license,
 } = userAnswers
 return `
 # ${title}
 
 ## Description
 ${description}
-
-## License
-${license}
 
 ## Installation
 ${installation}
@@ -26,14 +23,17 @@ ${installation}
 ${usage}
 
 ## Contributions
-${contributing}
+${contributions}
 
 ## Tests
 ${tests}
 
 ## About
-${name}
-${email}`
+${name} \n
+${email}
+
+## License
+${license}`
 }
 
 module.exports = generateMarkdown
