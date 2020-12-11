@@ -16,7 +16,9 @@ Hello there and welcome to my humble but effective Readme Generator! Need a quic
 Simply clone this repo to your local machine.
 
 ## Usage
-This is used to generate a readme whenever you want.
+This is used to generate a readme whenever you want. 
+
+This video should also help, as it demonstrates how to use it: https://drive.google.com/file/d/16FGc_h3tuF6OpQZcJf-UqtBDmwOUJhzh/view
 
 ## Contributions
 My wonderful tutor helped me with this application. :)
